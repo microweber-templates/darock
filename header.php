@@ -37,5 +37,6 @@
                 <div id="header-cart"><module type="shop/cart" template="small"></div>
             </div>
        </div>
-    </div>
+    </div> 
     <div id="content-holder">
+    

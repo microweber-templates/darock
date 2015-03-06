@@ -6,8 +6,12 @@
 
 <link rel="stylesheet" type="text/css" href="<?php print TEMPLATE_URL; ?>css/framework.css" />
 <link rel="stylesheet" type="text/css" href="<?php print TEMPLATE_URL; ?>css/darock.css" />
+    <?php include THIS_TEMPLATE_DIR . 'header_options.php'; ?>
+
  </head>
-<body>
+<body style="background:none;">
+<div id="content-holder">
 {content}
+</div>
 </body>
 </html>
