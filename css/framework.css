@@ -113,8 +113,7 @@ body{
 
 body, .box-container,
 a, a:hover, a:focus, a:active{
-    color:#556;
-	
+    color:#303030;
 }
 .box-container a, .box-container a:hover, .box-container a:focus, .box-container a:active{
 	
@@ -149,8 +148,8 @@ a, a:hover, a:focus, a:active{
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus{
-    background-color: #555566;
-    border-color: #555566;
+    background-color: #303030;
+    border-color: #303030;
     color: white !important;
 }
 
@@ -162,7 +161,7 @@ a, a:hover, a:focus, a:active{
 }
 
 .btn-default{
-  background-color: #555566;
+  background-color: #303030;
   border-color: transparent;
 }
 .btn-default{
@@ -186,7 +185,7 @@ a, a:hover, a:focus, a:active{
 .nav-pills > li > a, .nav-pills > li > a:hover, .nav-pills > li > a:focus,
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
   background-color: transparent;
-  color: #555566;
+  color: #303030;
 }
 
 .form-control{
@@ -207,7 +206,7 @@ a, a:hover, a:focus, a:active{
 
 .btn-action, .product-price-holder .btn, .btn-action-default{
   color: white;
-  background: #555566;
+  background: rgba(0, 0, 0, 0.86);
 }
 
 .mw-defaults .btn-action,
@@ -222,15 +221,17 @@ a, a:hover, a:focus, a:active{
 
 .btn-action:active, .btn-action-default:active{ box-shadow: inset 0 0 6px #000; }
 
-.sidebar-title, .border-title{ border-color: #EFEFEF; }
+.sidebar-title, .border-title{ border-color: #e3e3e3; }
 
 .sidebar-box .nav li a{ color: #8F8F8F; }
 
-.sidebar-box .nav li a.active{ color: #555566; }
+.sidebar-box .nav li a.active{ color: #303030; }
 
 
-.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td{
-  border-color: rgba(235, 235, 235, 0.3);
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td{
+  border-color: rgba(227, 227, 227, 0.7);
 }
 
 
@@ -264,11 +265,13 @@ a, a:hover, a:focus, a:active{
    Image Backgrounds
 **********************/
 
-body.bgimage0{ background-image: none; }
-body.bgimage1{ background-image: url(../img/bgimage1.png);background-size: auto;background-repeat: repeat; background-attachment: scroll; }
-body.bgimage2{ background-image: url(../img/bgimage2.jpg);background-size: auto;background-repeat: repeat; background-attachment: scroll; }
-body.bgimage3{ background-image: url(../img/bgimage3.jpg);background-size: cover;background-repeat: no-repeat; background-attachment: fixed; }
-body.bgimage4{ background-image: url(../img/bgimage4.jpg);background-size: cover;background-repeat: no-repeat; background-attachment: fixed; }
+/*body.bgimage0{ background-image: none; }
+body.bgimage1{ background-image: url(../img/1.jpg);background-size: cover;background-repeat: no-repeat; background-attachment: fixed; }
+body.bgimage2{ background-image: url(../img/2.jpg);background-size: cover;background-repeat: no-repeat; background-attachment: fixed; }
+body.bgimage3{ background-image: url(../img/3.jpg);background-size: cover;background-repeat: no-repeat; background-attachment: fixed; }
+body.bgimage4{ background-image: url(../img/4.jpg);background-size: cover;background-repeat: no-repeat; background-attachment: fixed; }
+body.bgimage5{ background-image: url(../img/5.jpg);background-size: cover;background-repeat: no-repeat; background-attachment: fixed; }
+body.bgimage6{ background-image: url(../img/6.jpg);background-size: cover;background-repeat: no-repeat; background-attachment: fixed; }  */
 
 body.bgimagecustom{ background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
 
@@ -673,7 +676,7 @@ img{
 }
 
 .module-navigation-default a{
-  color: #555566;
+  color: #303030;
   background-color: transparent;
 }
 
@@ -773,9 +776,14 @@ img{
 
 
 #footer .container .mw-ui-row{
-    border-top-style: solid;
     border-top-width: 1px;
+    border-top-style: solid;
     padding-top: 20px;
+}
+#footer .mw-ui-row,
+#footer .container .mw-ui-row,
+.mw-cart-action-holder, hr{
+  border-top-color:#e3e3e3;
 }
 
 #footer, #footer p{
@@ -855,20 +863,16 @@ img{
 
 
 .sidebar-box .well > .nav > li > a{
-    background-image: url(../img/categories-list-bullet.gif);
-    background-repeat: no-repeat;
-    background-position: 3px 16px;
-}
-
-.sidebar-box .well > .nav > li > a.active{
-  background-image:url(../img/categories-list-bullet-active.png);
-  background-position: 0px 17px;
+    padding-left: 0;
 }
 
 
 
-.sidebar-box .well > .nav > li > a{ padding-left: 17px; }
-.sidebar-box .nav li li a{ padding-left: 30px; font-size: 13px;padding-top: 5px;padding-bottom: 5px; }
+.module-categories-template-default{
+  font-size: 16px;
+}
+
+.sidebar-box .nav li li a{ padding-left: 30px; padding-top: 5px;padding-bottom: 5px; }
 .sidebar-box .nav li li li a{ padding-left: 45px; }
 .sidebar-box .nav li li li li a{ padding-left: 60px; }
 
@@ -894,6 +898,8 @@ img{
   display: block;
   width: 100%;
 }
+
+
 
 
 /* /Sidebar */
@@ -971,7 +977,7 @@ img{
 .module-posts-template-search a:hover,
 .module-posts-template-search a:focus,
 .module-posts-template-search a{
-  color: #555566
+  color: #303030
 }
 
 .post-list-template-default .post-single-title-date .lead{
@@ -1022,7 +1028,7 @@ label.mw-price{
 }
 
 .add-to-cart{
-  margin: 20px auto;
+  margin: 20px 0;
 }
 
 
@@ -1053,7 +1059,9 @@ label.mw-price{
   opacity: 0.6;
 }
 
-.mw-rotator-template-inner a.rotator-paging-item-thumbnail.active, .mw-rotator-template-inner a.rotator-paging-item-thumbnail:hover, .mw-rotator-template-inner a.rotator-paging-item-thumbnail:focus{
+.mw-rotator-template-inner a.rotator-paging-item-thumbnail.active,
+.mw-rotator-template-inner a.rotator-paging-item-thumbnail:hover,
+.mw-rotator-template-inner a.rotator-paging-item-thumbnail:focus{
   box-shadow: none;
   border: none;
   opacity: 1;
@@ -1089,7 +1097,7 @@ label.mw-price{
 }
 
 .mw-search-autocomplete .module-posts-template-search > ul > li.active{
-  background: #555566;
+  background: #303030;
 }
 .mw-search-autocomplete .module-posts-template-search > ul > li.active a{
   color: white !important;
@@ -1103,8 +1111,11 @@ label.mw-price{
   text-decoration: none
 }
 
-.mw-cart-small-order-info-total{
-  margin-left: 12px;
+.smallcartdelimiter{
+  margin: 0 10px;
+  position: relative;
+  top: -1px;
+  opacity: 0.5;
 }
 
 
@@ -1271,9 +1282,13 @@ label.mw-price{
   font-weight: 100;
 }
 
+.shipping-and-payment .mw-ui-field-holder{
+  padding: 0;
+}
 .shipping-and-payment label{
   display: block;
   padding-top: 15px;
+  padding-bottom: 0;
   font-weight: 100;
 }
 
@@ -1436,7 +1451,18 @@ label.mw-price{
 
 
 .mw-admin-view #header,.mw-admin-view #footer,.mw-admin-view .sidebar {
-	 display: none;	
+    display: none;
+}
+
+
+.mw-rotator-template-multiline a.rotator-paging-item-thumbnail{
+  width: 46%;
+  height: 200px;
+  background-size: cover;
+}
+
+.mw-rotator-template-multiline .mw-rotator-ctrls{
+  padding-top: 60px;
 }
 
 
