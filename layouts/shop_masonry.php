@@ -15,7 +15,7 @@ position: 4
 <?php include TEMPLATE_DIR. "header.php"; ?>
 <div class="container">
   	<div class="box-container">
-  		<div class="row" id="shop-products-conteiner">
+  		<div class="" id="shop-products-conteiner">
   			<div class="col-md-9">
                   <h2 class="edit page-title" field="title" rel="content">Shop</h2>
                   <div class="edit" field="content" rel="page">

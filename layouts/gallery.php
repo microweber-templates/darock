@@ -15,7 +15,7 @@
 <?php include TEMPLATE_DIR. "header.php"; ?>
 
 <div class="container">
-  <div class="box-container">
+  <div class="box-container col-xs-12">
     <div class="edit" field="content" rel="content">
       <h2 class="edit page-title" field="title" rel="content">Hot Concept Art</h2>
       <div class="masonry-gallery">

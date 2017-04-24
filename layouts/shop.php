@@ -17,7 +17,7 @@ position: 3
 <div class="container">
     <div class="box-container">
 
-		<div class="row" id="shop-products-conteiner">
+		<div class="" id="shop-products-conteiner">
             <div class="col-md-3">
                 <h2 class="edit page-title" field="title" rel="content">Shop</h2>
 				<?php

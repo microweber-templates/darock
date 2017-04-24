@@ -16,7 +16,7 @@ description: Clean layout
 <?php include TEMPLATE_DIR. "header.php"; ?>
 
 <section id="content">
-  <div class="box-container">
+  <div class="box-container col-xs-12">
     <div class="container edit" field="content" rel="content">
       <p class="element">Type your text here</p>
     </div>

@@ -16,7 +16,7 @@
 
 <div class="container" data-mw="main">
   <div class="box-container">
-    <div class="row">
+    <div class="">
       <div class="col-md-9">
         <?php /*<div class="content-header">
           <h2 class="edit page-title" field="title" rel="page">Page Title</h2>

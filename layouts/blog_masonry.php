@@ -16,7 +16,7 @@
 
 <div class="container">
   <div class="box-container">
-    <div class="row">
+    <div class="">
       <div class="col-md-9">
         <div class="content-header">
           <?php if(!is_category()) :  ?>

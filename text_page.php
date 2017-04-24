@@ -17,7 +17,7 @@ description: About Page
 
 <section id="content"> 
   <div class="container">
-    <div class="box-container">
+    <div class="box-container col-xs-12">
         <h2 class="edit" field="title" rel="content">Lorem Ipsum</h2>
         <div class="edit richtext" field="content" rel="content">
 

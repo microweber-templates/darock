@@ -16,7 +16,7 @@
 
 <div class="container">
   <div class="box-container">
-    <div class="row">
+    <div class="">
       <div class="col-md-9">
         <div class="content-header">
           <h2 class="edit page-title" field="title" rel="content">Page Title</h2>

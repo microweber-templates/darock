@@ -3,7 +3,7 @@
 <div class="container" id="blog-container">
   <div class="box-container">
     <div id="blog-content-<?php print CONTENT_ID; ?>">
-      <div class="row">
+      <div class="">
         <div class="col-lg-9" id="blog-main-inner">
           <h3 class="page-title edit" field="title" rel="content">Page Title</h3>
           <div class="edit post-content" field="content" rel="content">
