@@ -1,5 +1,5 @@
 {
-    "name": "Darock template",
+    "name": "microweber/template-darock",
     "type": "microweber-template",
     "extra": {
         "folder": "darock"
