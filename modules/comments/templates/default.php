@@ -178,17 +178,7 @@ description: Default comments template
                             </div>
                         </div>
                         <div class="mw-ui-row vertical-middle captcha-row">
-                            <div class="mw-ui-col"><img
-                                        title="Click to refresh image"
-                                        id='comment-captcha-<?php print $rand; ?>'
-                                        alt="<?php _e("Captcha image"); ?>"
-                                        class="mw-captcha-img"
-                                        src="<?php print api_link('captcha') ?>?id=<?php print $params['id']; ?>"
-                                        onclick="mw.tools.refresh_image(this);"></div>
-                            <div class="mw-ui-col">
-                                <input type="text" name="captcha" required class="form-control" placeholder="<?php _e("Enter text"); ?>"/>
-                            </div>
-                            <div class="mw-ui-col"><span onclick="mw.tools.refresh_image(mwd.getElementById('comment-captcha-<?php print $rand; ?>'));" class="ico irefresh"></span></div>
+                            <module type="captcha" />
                         </div>
                         <?php event_trigger('module.comments.form.end', $data); ?>
                         <input type="submit" class="btn btn-default pull-right" value="<?php _e("Add comment"); ?>">
