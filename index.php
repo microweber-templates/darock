@@ -11,21 +11,10 @@
 */
 
 ?>
-<?php include TEMPLATE_DIR. "header.php"; ?>
+<?php include TEMPLATE_DIR . "header.php"; ?>
 
-<div class="container">
-  <div class="box-container">
-  <div class="edit" field="content" rel="content">
-
-  
-
-     <?php /* <module type="categories" template="pictured" />  */ ?>
-
-
-   <module type="posts" template="grid" hide-paging="true" data-show="thumbnail,title" />
-
-
-  </div>
-  </div>
+<div class="edit" rel="content" field="darock_content">
+    <module type="layouts" template="skin-2"/>
 </div>
-<?php include TEMPLATE_DIR. "footer.php"; ?>
+
+<?php include TEMPLATE_DIR . "footer.php"; ?>

@@ -11,22 +11,16 @@
 */
 
 ?>
-<?php include TEMPLATE_DIR. "header.php"; ?>
+<?php include TEMPLATE_DIR . "header.php"; ?>
 
 <div class="container">
-  <div class="edit" field="content" rel="content">
+    <div class="edit" field="content" rel="content">
+        <?php if (CATEGORY_ID == 0) { ?>
+            <module type="categories" template="pictured"/>
+        <?php } else { ?>
+            <module type="posts" template="grid" data-show="thumbnail,title"/>
+        <?php } ?>
 
-      <?php if(CATEGORY_ID ==0 ){ ?>
-
-      <module type="categories" template="pictured" />
-
-      <?php } else { ?>
-
-      <module type="posts" template="grid" data-show="thumbnail,title" />
-
-
-     <?php } ?>
-
-  </div>
+    </div>
 </div>
-<?php include TEMPLATE_DIR. "footer.php"; ?>
+<?php include TEMPLATE_DIR . "footer.php"; ?>

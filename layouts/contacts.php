@@ -4,11 +4,10 @@
 
 type: layout
 content_type: static
-name: Clean
-position: 1
-is_default: true
-description: Clean layout
+name: Contact Us
 
+description: Contact us layout
+position: 7
 */
 
 
@@ -16,7 +15,9 @@ description: Clean layout
 <?php include TEMPLATE_DIR . "header.php"; ?>
 
 <div class="edit" rel="content" field="darock_content">
-    <!-- Do not delete this tag - it is for Parser -->
+    <module type="layouts" template="skin-8"/>
+    <module type="layouts" template="skin-6"/>
+    <module type="layouts" template="skin-7"/>
 </div>
 
 <?php include TEMPLATE_DIR . "footer.php"; ?>

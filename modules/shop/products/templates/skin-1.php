@@ -6,7 +6,7 @@ type: layout
 
 name: 2 Columns
 
-description: 2 Columns
+description: Skin 1
 
 */
 ?>

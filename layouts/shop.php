@@ -12,30 +12,10 @@ position: 3
 
 
 ?>
-<?php include TEMPLATE_DIR. "header.php"; ?>
+<?php include TEMPLATE_DIR . "header.php"; ?>
 
-<div class="container">
-    <div class="box-container">
-
-		<div class="" id="shop-products-conteiner">
-            <div class="col-md-3">
-                <h2 class="edit page-title" field="title" rel="content">Shop</h2>
-				<?php
-              		include TEMPLATE_DIR. 'layouts' . DS."shop_sidebar.php"
-		        ?>
-			</div>
-			<div class="col-md-9">
-
-
-    			<div class="edit" field="shop-content" rel="page">
-    				<div class="box-container">
-                        <module type="shop/products" template="2columns" limit="18" description-length="70" data-show="thumbnail,title,add_to_cart,price" />
-                    </div>
-    			</div>
-			</div>
-
-		</div>
-	</div>
+<div class="edit" rel="content" field="darock_content">
+    <module type="layouts" template="skin-3"/>
 </div>
 
-<?php include TEMPLATE_DIR. "footer.php"; ?>
+<?php include TEMPLATE_DIR . "footer.php"; ?>
