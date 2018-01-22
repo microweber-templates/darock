@@ -21,32 +21,8 @@
                         <div>
                             <div class="blog-socials-bar" style="width: 320px;">
                                 <div class="mw-ui-row-nodrop">
-                                    <div class="mw-ui-col" style="width: 60px;">
-                                        <div class="mw-ui-col-container">
-                                            <module type="facebook_like" show-faces="false" layout="box_count">
-                                        </div>
-                                    </div>
                                     <div class="mw-ui-col">
-                                        <div class="mw-ui-col-container" style="padding-top: 25px;">
-                                            <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
-                                            <script>!function (d, s, id) {
-                                                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                                                    if (!d.getElementById(id)) {
-                                                        js = d.createElement(s);
-                                                        js.id = id;
-                                                        js.src = p + '://platform.twitter.com/widgets.js';
-                                                        fjs.parentNode.insertBefore(js, fjs);
-                                                    }
-                                                }(document, 'script', 'twitter-wjs');</script>
-                                        </div>
-                                    </div>
-
-                                    <div class="mw-ui-col">
-                                        <div class="mw-ui-col-container" style="padding-top: 25px;">
-                                            <a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-height="28"><img
-                                                        src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_28.png"/></a>
-                                            <script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script>
-                                        </div>
+                                        <module type="sharer" id="blog-post-share"/>
                                     </div>
                                 </div>
                             </div>

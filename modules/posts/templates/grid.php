@@ -24,7 +24,7 @@ description: Grid
     ?>
   <div class="mwpgrid-item">
     <?php if(!isset($show_fields) or $show_fields == false or in_array('thumbnail', $show_fields)): ?>
-    <a class="mwpgrid-item-rock-image" href="<?php print $item['link'] ?>" style="background-image: url(<?php print $item['image']; ?>);"></a>
+    <a class="mwpgrid-item-rock-image" href="<?php print $item['link'] ?>" style="background-image: url(<?php print thumbnail($item['image'], 400, 400); ?>);"></a>
     <?php endif; ?>
     <div class="mwpgrid-item-container">
       <div class="module-posts-head">
