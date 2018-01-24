@@ -5,7 +5,7 @@
         <div class="container" id="shop-container">
             <div class="box-container">
 
-                <div data-mw="main">
+                <div>
                     <div class="shop-product-row">
                         <div class="mw-col" style="width:65%">
                             <div class="mw-col-container">

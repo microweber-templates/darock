@@ -13,7 +13,7 @@ position: 4
 ?>
 
 <div class="nodrop safe-mode edit" field="layout-skin-4-<?php print $params['id'] ?>" rel="module">
-    <div class="container" data-mw="main">
+    <div class="container">
         <div class="box-container">
             <div class="">
                 <div class="col-md-9">
