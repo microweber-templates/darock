@@ -17,7 +17,7 @@ position: 5
         <div class="container">
             <div class="box-container col-xs-12">
                 <h2>Lorem Ipsum</h2>
-                <div class="richtext">
+                <div class="richtext allow-drop">
                     <p><img src="<?php print TEMPLATE_URL; ?>img/about_me.jpg"></p>
                     <p>Information about me</p>
                     <p>Nunc eu felis fringilla enim luctus tincidunt. Sed sit amet gravida lorem, tincidunt varius erat. Fusce mi purus, tincidunt ultricies ultrices vel, auctor ut diam. Pellentesque
