@@ -30,6 +30,7 @@
         <div class="container">
             <div class="text-center">
                 <module type="logo" id="logo"/>
+                <div class="edit" rel="global" field="darock-under-logo"><!-- DRAG HERE --></div>
                 <hr>
                 <span id="mobile-menu"><span></span><span></span><span></span><span></span></span>
                 <span id="mobilemenuclose"><span class="mw-icon-close"></span></span>
