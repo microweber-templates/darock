@@ -919,3 +919,7 @@ h2.edit {
     background: #317FC9;
     color: #fff;
 }
+
+.gateway-selector {
+    list-style-type: none;
+}
