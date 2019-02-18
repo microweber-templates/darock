@@ -1,8 +1,6 @@
 {
-    "name": "microweber/template-darock",
-    "type": "microweber-template",
-	"description": "DaRock",
-    "extra": {
-        "folder": "darock"
-    }
+  "name": "microweber/template-darock",
+  "type": "microweber-template",
+  "description": "DaRock",
+  "target-dir": "darock"
 }
